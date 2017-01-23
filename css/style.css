@@ -1,0 +1,15 @@
+form {
+    width: 25em;
+}
+label {
+    display: block;
+}
+#email {
+    width: 100%;
+}
+#subject {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
