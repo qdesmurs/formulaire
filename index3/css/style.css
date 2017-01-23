@@ -1,0 +1,60 @@
+form {
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: #EB3B88;
+}
+fieldset {
+    border: 1px solid pink;
+    border-radius: 0.5em;
+    width: 100%;
+    background-color: #feeffe;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    box-shadow: inset 0 0 10px pink;
+}
+input, select, textarea {
+    background-color: #feeffe;
+    border: 1px solid pink;
+    margin: 0.5em;
+    border-radius: 1px;
+    box-shadow: inset 0 0 5px pink;
+}
+label {
+    display: inline-block;
+    width: 25%;
+    font-weight: bold;
+}
+input, select {
+    width: 50%;
+    color: #EB3B88;
+    height: 1.5em;
+}
+select {
+    height: 2em;
+    width: 51%;
+}
+fieldset:last-of-type label {
+    vertical-align: top;
+    padding: 1em 0 0 0;
+}
+em {
+    color: red;
+}
+legend {
+    border:1px solid pink;
+    padding: 1em;
+    border-radius: 1em 1em 0 0;
+    border-bottom: none;
+    background-color: #feeffe;
+}
+fieldset:last-of-type input {
+    margin-left: 27.5%;
+    width: 5em;
+    height: 2em;
+    background-color: #EB3B88;
+    color: #feeffe;
+    border-radius: 0.3em;
+    border: 1px solid #db2273;
+    box-shadow: none;
+}
