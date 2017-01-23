@@ -9,6 +9,8 @@ label {
 #subject {
     /*width: 29em;*/
     width: 100%;
+    appearance: none;
+    background-color: #C8C8C8;
 }
 textarea {
     /*width: 31.9em;*/
@@ -31,7 +33,6 @@ form {
     margin-top: 3em;
     font-family: sans-serif;
     font-weight: bold;
-    border: 1px solid black;
 }
 
 input, textarea, select{
@@ -39,9 +40,14 @@ input, textarea, select{
     border: 1px solid #dcdcdc;
     border-radius: none;
     background-color: white;
-    padding: 0;
+    padding: 0.5em 0.5em;
+    box-sizing: border-box;
 }
 
 .fullname {
-    width: 47.5%;
+    width: 49%;
+}
+#sub {
+    background-color: #5ca8c3;
+    color: white;
 }
