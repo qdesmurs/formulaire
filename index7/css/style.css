@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+form {
+    width: 25em;
+    margin: auto;
+    box-shadow: 0 0 5px;
+}
+h1 {
+    font-size: 1em;
+    padding: 1em;
+    font-weight: normal;
+    background-color: #4D4D4D;
+    color: #757575;
+}
+input {
+    display: block;
+    border: none;
+    height: 2em;
+    border-bottom: 1px solid whitesmoke;
+    margin: 0.5em auto;
+    width: 80%;
+    padding: 0;
+}
+button {
+    display: block;
+}
+h1, button {
+    text-transform: uppercase;
+}
