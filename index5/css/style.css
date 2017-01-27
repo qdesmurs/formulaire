@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+form {
+    width: 25em;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+form *:not(h1) {
+    color: grey;
+}
+p {
+    vertical-align: middle;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 2em;
+    margin: 0;
+    line-height: 2em;
+    font-size: 0.7em;
+}
+fieldset {
+    padding: 0;
+}
