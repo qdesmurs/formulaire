@@ -1,0 +1,59 @@
+form {
+    width: 25em;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em;
+    padding-bottom: 1.5em;
+}
+div {
+    padding: 1em;
+    background-color: #2A88AD;
+    color: white;
+    text-shadow: 0 0 3px #1A7094;
+    margin-bottom: 1.5em;
+    border-radius: 1em 1em 0 0;
+}
+h1 {
+    font-weight: normal;
+    margin: 0;
+}
+h2 {
+    font-weight: normal;
+    font-size: 0.75em;
+    margin: 0;
+}
+fieldset label, fieldset input, fieldset textarea {
+    display: block;
+    width: 100%;
+    border-width: thin;
+}
+fieldset {
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 0.4em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+legend {
+    margin-bottom: 2em;
+    margin-left: -0.6em;
+    font-weight: bold;
+    color: #2A88AD;
+}
+label {
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+fieldset label:last-of-type {
+    padding-top: 0.8em;
+}
+button {
+    margin-left: 1.6em;
+    margin-top: 1em;
+}
+#agreed {
+    margin-left: 3.3em;
+    vertical-align: middle;
+}
