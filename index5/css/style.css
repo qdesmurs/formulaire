@@ -7,9 +7,10 @@ form {
 }
 h1 {
     text-align: center;
+    color: #5c5c5c;
 }
-form *:not(h1) {
-    color: grey;
+form *:not(h1):not(button) {
+    color: #bbbbbb;
 }
 p {
     vertical-align: middle;
@@ -22,4 +23,27 @@ p {
 }
 fieldset {
     padding: 0;
+    border-radius: 0.3em;
+    margin-bottom: 1.5em;
+}
+input {
+    width: 99%;
+    border: none;
+    background-color: white;
+    height: 2em;
+}
+legend {
+    margin-left: 1em;
+}
+
+button {
+    display: block;
+    margin: auto;
+    height: 3em;
+    width: 9em;
+    background-color: #2471ff;
+    border: none;
+    color: white;
+    font-family: serif;
+    border-bottom: 4px solid #5994ff;
 }
